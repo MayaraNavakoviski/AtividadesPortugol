@@ -1,0 +1,23 @@
+Atividae 1 :
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro ano, horas, decada, minutos
+		ano = 365
+		horas = 24
+          decada = 10
+		minutos = horas*60
+		
+		escreva("Se um dia tem 24 horas e um ano tem 365 dias, " , "\n")
+		escreva("então em um ano " , ano*horas , " horas, porém em um ano bissexto haverá " , (ano+1)*24 , " horas" , "\n")
+
+		escreva("Em uma década há " , (ano+2)*decada , " dias. Em um dia há " , minutos , ", em uma década haverá " , (ano+2)*decada*minutos , " minutos" , "\n")
+
+		escreva("Minha idade em segundos é " , 14*365*24*60*60 , "\n")
+
+		escreva("Muitos" , "\n")
+
+		escreva("Sua idade em anos será " , 977000000/60/60/24/365)
+	}
