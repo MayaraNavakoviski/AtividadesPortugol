@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Tempo
+		Tempo = 140
+		inteiro Tempo_Estudo
+		Tempo_Estudo = Tempo/6
+		
+		escreva("Como você tem apenos Uma hora e Quarenta minutos, você teria somente " , Tempo_Estudo , " para estudar cada uma das seis matérias, sem tempo livre." , "\n")
+		escreva
+("Como você precisa de um tempo livre para descansar, você terá apenas " , Tempo%6 , " para descansar,")
+	}
+}
