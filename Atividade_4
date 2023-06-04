@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Madeira
+		Madeira = 45
+		inteiro Tabua_3, Tabua_4, Tabua_5
+		Tabua_3 = 300
+		Tabua_4 = 400
+		Tabua_5 = 500
+		
+		escreva("Se Uésley escolher a tábua com Três Metros, será possível cortar " , Tabua_3/Madeira ,  " pedaços de madeira, porém sobrará " , Tabua_3%Madeira , " centímetros de um pedaço de madeira." , "\n")
+		escreva("Se Uésley escolher a tábua com Quatro Metros, será possível cortar "
+ , Tabua_4/Madeira , " pedaços de madeira, porém sobrará " , Tabua_4%Madeira , " centímetros de um pedaço de madeira." , "\n")
+	     escreva("Se Uésley escolher a tábua com Cinco Metros, será possível cortar " , Tabua_5/Madeira , " Pedaços de madeira, porém sobrará " , Tabua_5%Madeira , " centímetros de um pedaço de madeira")
+	}
+}
