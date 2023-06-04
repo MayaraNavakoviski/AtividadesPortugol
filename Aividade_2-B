@@ -1,0 +1,68 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+		cadeia nome
+		inteiro idade
+		logico Mercurio
+		logico Venus
+		logico Marte
+		logico Jupiter
+		logico Urano
+		logico Netuno
+		
+		escreva("Me informe seu nome " , "\n")
+		leia(nome)
+		escreva(nome , " me informe sua idade" , "\n")
+		leia(idade)
+		escreva("Se você pudesse escolher um planete para viver, qual você escolheria?" , "\n")
+		
+		escreva(nome , " você escolhe Mercúrio? Por favor responda com verdadeiro ou falso" , "\n")
+		leia(Mercurio)
+		se( Mercurio == verdadeiro )
+		{
+			escreva("Em Mercúrio você teria " , idade*0.2408467 , " anos." , "\n")
+		}
+
+
+		escreva(nome , " você escolhe Vênus? Por favor responda com verdadeiro ou falso" , "\n")
+		leia(Venus)
+		se( Venus == verdadeiro )
+	    {
+		    escreva("Em Vênus você teria " , idade*0.61519726 , " anos." , "\n")
+	    }
+
+		escreva(nome , " você escolhe Marte? Por favor responda com verdadeiro ou falso" , "\n")
+		leia(Marte)
+		 se( Marte == verdadeiro)
+	   {
+		   escreva("Em Marte você teria " , idade*1.8808159, " anos." , "\n")
+        }
+
+		escreva(nome , " você escolhe Júpiter? Por favor responda com verdadeiro ou falso" , "\n")
+		leia(Jupiter)
+		se( Jupiter == verdadeiro)
+        {
+        	escreva("Em Júpiter você teria " , idade*11.862615 , " anos." , "\n")
+        }
+
+
+		escreva(nome , " você escolhe Urano? Por favor responda com verdadeiro ou falso" , "\n")
+		leia(Urano)
+		  se( Urano == verdadeiro)
+        {
+        		escreva("Em Urano você teria " , idade*84.016846 , " anos." , "\n")
+        }
+
+		escreva(nome , " você escolhe Netuno? Por favor responda com verdadeiro ou falso" , "\n")
+		leia(Netuno)
+		 se( Netuno == verdadeiro)
+        {
+        		escreva("Em Netuno você teria " , idade*164.79132 , " anos." , "\n")
+        }
+
+		
+	}
+}
