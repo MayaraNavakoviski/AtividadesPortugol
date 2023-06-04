@@ -1,0 +1,11 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		real Idade_em_Mercurio
+		Idade_em_Mercurio = 365.25*0.2408467
+		escreva("Se minha idade é 977 milhões de segundo, a minha idade em Mercúrio será de " ,  977000000/60/60/24/Idade_em_Mercurio ," anos," )
+	}
+}
