@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Tempo_por_Semana
+		Tempo_por_Semana = 6*5
+		inteiro ano
+		ano = 365
+		inteiro dias_da_semana
+		dias_da_semana = 7
+		inteiro Hora
+		Hora = 60
+		escreva("Em um ano normal você terá dedicado em um livro " , ano/dias_da_semana*Tempo_por_Semana/Hora , " horas." , "\n")
+		
+	}
+}
