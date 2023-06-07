@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro metros
+		
+		escreva("Por favor, me informe qual é o tamanho em metros quadrados da área a ser pintada." , "\n")
+		leia(metros)
+		
+          inteiro litros_necessarios
+		litros_necessarios = metros/3
+		
+		escreva("Com esse tamanho será necessario " , metros/3 , " litros de tinta." , "\n")
+		escreva("Como em cada lata vem 18 litros será necessario comprar " , litros_necessarios/18 , " latas" , "\n" )
+		
+		inteiro latas
+		latas = litros_necessarios/18
+		inteiro valor
+		
+		valor = latas*480
+		escreva("Será gasto " , valor , " reias para pintar a área.")
+		
+	}
+}
