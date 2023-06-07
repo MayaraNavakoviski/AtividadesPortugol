@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real C
+		real B
+		escreva("Me informe um valor para o lado B " , "\n")
+		leia(B)
+		escreva("Agora me informe um falor para o lado C" , "\n")
+		leia(C)
+		escreva("Com esses valores será necessario no minimo " , (B*2)+(C*2) , " de fios.")
+	}
+}
