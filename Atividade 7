@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade
+		
+		escreva("Por favor, me informe sua idade atual." , "\n")
+		leia(idade)
+		escreva("A soma de todas as idades que você já teve é " , idade*(idade+1)/2 )
+	}
+}
