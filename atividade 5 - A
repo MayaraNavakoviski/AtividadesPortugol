@@ -1,0 +1,8 @@
+real  B 
+		B = 11.5
+		real C
+		C = 6.3
+		real A
+		A = (B*2 + C*2)
+		
+		escreva("Será necessario comprar no minimo " , A , " de fios.")
