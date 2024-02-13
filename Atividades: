@@ -1,0 +1,92 @@
+
+
+1. Escreva um programa em Portugol que calcule e escreva na tela:
+
+a. Quantas horas há em um ano?
+b. Quantos minutos há em uma década?
+c. Qual é a sua idade em segundos?
+d. Quantos chocolates você pretende comer na vida? *Aviso: Esta parte do
+programa pode demorar um pouco para computar!
+e. Se minha idade é de 977 milhões de segundos, qual é minha idade em
+anos?
+
+
+2. Observe os seguintes dados:
+
+Terra: período orbital 1,0 anos terrestres, 365,25 dias terrestres ou 31557600
+segundos
+Mercúrio: período orbital 0,2408467 anos terrestres
+Vênus: período orbital 0,61519726 anos terrestres
+Marte: período orbital 1.8808158 anos terrestres
+Júpiter: período orbital 11,862615 anos terrestres
+Urano: período orbital 84.016846 anos terrestres
+Netuno: período orbital 164.79132 anos terrestres
+
+Portanto, se alguém dissesse que alguém tinha 1 bilhão de segundos, você
+deveria ser capaz de dizer que ele tinha 31,7 anos terrestres.
+Escreva um programa em Portugol que calcule e escreva na tela:
+
+a. Se minha idade é de 977 milhões de segundos, qual é minha idade
+em Mercúrio?
+b. Leia a idade de uma pessoa e um planeta. Calcule e mostre a idade
+da pessoa nesse planeta.
+
+
+3. Um estudante muito metódico estava matriculado em 6 disciplinas, e dispunha
+de 1 hora e 40 minutos para estudar. Sua intenção era dividir o tempo
+disponível igualmente para as 6 disciplinas, e descansar livremente o tempo
+restante.
+
+Faça um programa que calcule o tempo que ele deve dedicar para cada
+disciplina e o tempo livre. [Dica: use os operadores div e mod]
+
+
+4. Uésley, um marceneiro mirim, para fazer um
+trabalho, precisa cortar vários pedaços de madeira
+de 45 cm cada um. Ele pode comprar tábuas de 3, 4
+ou 5 metros. Usando os operadores div e mod, faça
+um programa que calcule a quantidade de pedaços e
+a sobra para cada tipo de tábua, permitindo assim
+uma melhor escolha do marceneiro.
+
+
+5. Um eletricista precisa comprar fio que irá passar, pelo telhado, por toda a
+diagonal de uma casa de formato retangular. Como ele não tem condições de
+medir a diagonal com precisão (ou talvez não queira...), a solução alternativa
+que ele encontrou foi medir os lados da casa, sabendo que a diagonal pode ser
+calculada com base nos lados pelo Teorema de Pitágoras (a2= b2+ c2).
+
+a. Considerando uma casa que mede 11,5 x 6,3 metros, faça um
+programa que calcule e escreva na tela a quantidade mínima
+necessária de fio a ser comprada.
+b. Aprimore o exercício anterior, lendo dois valores do usuários (L1 e
+L2), calculando e mostrando a quantidade de fios que o eletricista
+usaria para passar o fio pelo telhado.
+
+
+6. Uma pessoa com pouco tempo disponível lê um livro por 5 minutos a
+cada dia, 6 dias por semana. Construa a fórmula e escreva um programa
+que calcula e mostra na tela quanto tempo, em horas, a pessoa terá
+dedicado ao livro ao final de um ano.
+
+
+7. Uma criancinha quer saber qual é a soma
+de todas as idades que ela já teve.
+Escreva um programa que leia uma idade
+qualquer e responda rapidamente a essa
+pergunta [fórmula para calcular a soma
+dos N primeiros números inteiros: N
+(N+1)/2].
+
+
+8. Faça um programa que peça o tamanho de um arquivo para download
+(em MB) e a velocidade de um link de Internet (em Mbps), calcule e
+informe o tempo aproximado de download do arquivo usando este link
+(em minutos).
+
+
+9. Faça um programa para uma loja de tintas. O programa deverá pedir o
+tamanho em metros quadrados da área a ser pintada. Considere que a
+cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta
+é vendida em latas de 18 litros, que custam R$ 480,00. Informe ao usuário
+a quantidade de latas de tinta a serem compradas e o preço total.
